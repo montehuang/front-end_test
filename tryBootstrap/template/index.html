@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"/>
+    <link href="../assets/style.css" rel="stylesheet"/>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--导航-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hello" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">管家</a>
+            </div>
+            <ul id="hello" class="nav navbar-nav collapse navbar-collapse">
+                <li class="active"><a href="">首页</a></li>
+                <li><a href="">关于</a></li>
+                <li><a href="">登录</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--轮播图-->
+    <div id="carousel-example" class="carousel slide"data-ride="carousel">
+        <!--indicator-->
+        <ol class="carousel-indicators">
+            <li data-target="carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="carousel-example" data-slide-to="1"></li>
+            <li data-target="carousel-example" data-slide-to="2"></li>
+        </ol>
+        <!--wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <img src="../assets/tu1.jpg"/>
+               <div class="carousel-caption">
+                   <h1>轮播图1</h1>
+                   <p>这里是图1的说明</p>
+               </div>
+            </div>
+            <div class="item">
+               <img src="../assets/tu2.jpg"/>
+               <div class="carousel-caption">
+                   <h1>轮播图2</h1>
+                   <p>这里是图2的说明</p>
+               </div>
+            </div>
+            <div class="item">
+               <img src="../assets/tu3.jpg"/>
+               <div class="carousel-caption">
+                   <h1>轮播图3</h1>
+                   <p>这里是图3的说明</p>
+               </div>
+            </div>  
+        </div>
+        
+        <!--controls-->
+        <a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class=”src-only">Previous</span>
+        </a>
+         <a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class=”src-only">Next</span>
+        </a>
+    </div>
+
+    <!--案例-->
+    <div class="case container">
+        <div class="row">
+            <div class="col-md-4">
+               <img class="img-circle" src="../assets/icon1.jpg"/>
+               <h1>案例1</h1>
+            </div>
+            <div class="col-md-4">
+               <img class="img-circle" src="../assets/icon2.jpg"/>
+               <h1>案例2</h1>
+            </div>
+            <div class="col-md-4">
+               <img class="img-circle" src="../assets/icon3.jpg"/>
+               <h1>案例3</h1>
+            </div>
+        </div>
+    </div>
+    <!--功能图-->
+    <div class="container screenshot">
+        <div class="row item">
+            <div class="col-md-5"><img src="../assets/shot1.jpg"/></div>
+            <div class="col-md-7">
+                <h2>截图1</h2>
+                <p>截图说明1，截图说明1，截图说明1，截图说明1，截图说明1</p>
+            </div>
+        </div>
+        <div class="row item">
+            <div class="col-md-5">
+                <h2>截图2</h2>
+                <p>截图说明2，截图说明2，截图说明2，截图说明2，截图说明2</p>
+            </div>
+            <div class="col-md-7"><img src="../assets/shot2.jpg"/></div>
+        </div>  
+        <div class="row item">
+            <div class="col-md-5"><img src="../assets/shot3.jpg"/></div>
+            <div class="col-md-7">
+                <h2>截图3</h2>
+                <p>截图说明3，截图说明3，截图说明3，截图说明3，截图说明3</p>
+            </div>
+        </div> 
+    </div>
+    <!--底部-->
+    <div class="container">
+        <footer>
+            版权所有2018
+            <a href="">四光年科技</a>
+        </footer>
+    </div>
+</body>
+</html>
