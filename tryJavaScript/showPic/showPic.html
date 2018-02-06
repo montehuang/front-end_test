@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>show Pictures</title>
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>显示图片</h1>
+        <ul>
+            <li>
+                <a href="images/a.jpg" title="first" onclick="showPic(this); return false;">first</a>
+            </li>
+            <li>
+                <a href="images/b.jpg" title="second" onclick="showPic(this); return false;">second</a>
+            </li>
+            <li>
+                <a href="images/c.jpg" title="third" onclick="showPic(this); return false;">third</a>
+            </li>
+            <li>
+                <a class="popup" href="showPic.html">打开新窗口</a>
+            </li>
+        <img src="images/default.jpg" width="300" height="200" id="description"/>
+        <p id="placeholder">Choose a picture.</p>
+        <script src="showPic.js"></script>
+    </body>
+</html>
+
